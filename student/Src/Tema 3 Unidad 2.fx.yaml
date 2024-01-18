@@ -1,0 +1,27 @@
+"'Tema 3 Unidad 2' As screen":
+    BackgroundImage: =
+    Fill: =RGBA(255, 255, 255, 1)
+    ImagePosition: =ImagePosition.Fill
+
+    LabelAgg_12 As label:
+        Align: =Align.Center
+        Fill: =RGBA(220, 153, 153, 1)
+        Font: =Font.'Dancing Script'
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        PaddingLeft: =200
+        PaddingRight: =25
+        Size: =25
+        Text: |-
+            ="Tema 3: Sistema Reproductor Masculino y Femenino"
+        Width: =640
+        ZIndex: =1
+
+    Icon2_10 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =30
+        Y: =24
+        ZIndex: =2
+

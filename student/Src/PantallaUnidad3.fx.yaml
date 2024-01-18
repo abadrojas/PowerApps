@@ -1,0 +1,26 @@
+PantallaUnidad3 As screen:
+    BackgroundImage: =sistema
+    ImagePosition: =ImagePosition.Fill
+
+    LabelAgg_4 As label:
+        Align: =Align.Center
+        Fill: =RGBA(153, 160, 196, 1)
+        Font: =Font.'Dancing Script'
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        PaddingLeft: =200
+        PaddingRight: =25
+        Size: =25
+        Text: |-
+            ="             Unidad 3                            
+             El Ambiente de los Seres Vivos"
+        Width: =640
+        ZIndex: =1
+
+    Icon2_3 As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =40
+        Y: =24
+        ZIndex: =2
+

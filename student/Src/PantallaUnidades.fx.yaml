@@ -1,0 +1,297 @@
+PantallaUnidades As screen:
+    BackgroundImage: ='fondo 2'
+    ImagePosition: =ImagePosition.Fill
+
+    Rectangle5_2 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        DisabledFill: |
+            =Self.Fill
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =149
+        Width: =541
+        X: =54
+        Y: =748
+        ZIndex: =2
+
+    Rectangle5_1 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        DisabledFill: |
+            =Self.Fill
+        Fill: =RGBA(220, 153, 153, 1)
+        Height: =149
+        Width: =541
+        X: =54
+        Y: =559
+        ZIndex: =3
+
+    LabelAgg As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 121, 187, 1)
+        Font: =Font.'Dancing Script'
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        PaddingLeft: =25
+        PaddingRight: =200
+        Size: =35
+        Text: |-
+            ="Bienvenidos a      
+                     Science World"
+        Width: =640
+        ZIndex: =4
+
+    IconNew As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Add
+        OnSelect: =Navigate('3era pantalla',ScreenTransition.Fade)
+        X: =555
+        Y: =24
+        ZIndex: =5
+
+    Rectangle5 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        DisabledFill: |
+            =Self.Fill
+        Fill: =RGBA(136, 160, 209, 1)
+        Height: =149
+        Width: =541
+        X: =54
+        Y: =376
+        ZIndex: =6
+
+    ImageU1 As image:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =1500
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =97
+        Image: ='estructura celular'
+        ImagePosition: =ImagePosition.Fill
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =126
+        X: =72
+        Y: =408
+        ZIndex: =7
+
+    IconUnidad1 As icon.NextArrow:
+        BorderColor: =RGBA(0, 121, 187, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(54, 176, 75, 1)
+        Height: =71
+        Icon: =Icon.NextArrow
+        OnSelect: =Navigate(PantallaUnidad1,ScreenTransition.Fade)
+        Width: =62
+        X: =495
+        Y: =415
+        ZIndex: =8
+
+    LabelU1 As label:
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Great Vibes'
+        Height: =59
+        Size: =30
+        Text: ="Unidad 1"
+        Width: =156
+        X: =221
+        Y: =400
+        ZIndex: =9
+
+    LabelSV As label:
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Great Vibes'
+        Height: =53
+        Size: =30
+        Text: ="Los Seres Vivos"
+        Width: =261
+        X: =220
+        Y: =452
+        ZIndex: =10
+
+    ImageU2 As image:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =500
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =94
+        Image: =Reporduccion
+        ImagePosition: =ImagePosition.Fill
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =123
+        X: =75
+        Y: =591
+        ZIndex: =11
+
+    ImageU3 As image:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: |
+            =150
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =92
+        Image: =ecosistemas
+        ImagePosition: =ImagePosition.Fill
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =123
+        X: =75
+        Y: =782
+        ZIndex: =12
+
+    LabelU2 As label:
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Great Vibes'
+        Height: =56
+        Size: =30
+        Text: ="Unidad 2"
+        Width: =181
+        X: =215
+        Y: =584
+        ZIndex: =13
+
+    LabelU3 As label:
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Great Vibes'
+        Height: =53
+        Size: =30
+        Text: ="Unidad 3"
+        Width: =192
+        X: =220
+        Y: =765
+        ZIndex: =14
+
+    LabelLR As label:
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Great Vibes'
+        Height: =72
+        Size: =30
+        Text: ="La Reproducción"
+        Width: =297
+        X: =216
+        Y: =627
+        ZIndex: =15
+
+    LabelASR As label:
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Great Vibes'
+        Height: =88
+        Size: =24
+        Text: |-
+            ="El Ambiente de los   
+               Seres Vivos"
+        Width: =297
+        X: =215
+        Y: =810
+        ZIndex: =16
+
+    Rectangle6 As rectangle:
+        BorderColor: =RGBA(54, 176, 75, 1)
+        Fill: =RGBA(0, 121, 187, 1)
+        Width: =640
+        Y: =1036
+        ZIndex: =17
+
+    Iconprofile As icon.Person:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Person
+        OnSelect: =Navigate('Pantalla del autor',ScreenTransition.Fade)
+        X: =364
+        Y: =1054
+        ZIndex: =18
+
+    Iconosalida As icon.Leave:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Leave
+        OnSelect: =Navigate('Pantalla Inicial',ScreenTransition.Fade)
+        X: =531
+        Y: =1054
+        ZIndex: =19
+
+    Iconoinfo As icon.Information:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Information
+        OnSelect: |
+            =Navigate('Pantalla de Información',ScreenTransition.Fade)
+        X: =39
+        Y: =1058
+        ZIndex: =20
+
+    Icon9 As icon.Folder:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Folder
+        OnSelect: =Navigate('Pantalla Multimedia',ScreenTransition.Fade)
+        X: =198
+        Y: =1054
+        ZIndex: =21
+
+    IconUnidad1_1 As icon.NextArrow:
+        BorderColor: =RGBA(0, 121, 187, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(54, 176, 75, 1)
+        Height: =71
+        Icon: =Icon.NextArrow
+        OnSelect: =Navigate(PantallaUnidad2,ScreenTransition.Fade)
+        Width: =62
+        X: =495
+        Y: =602
+        ZIndex: =22
+
+    IconUnidad1_2 As icon.NextArrow:
+        BorderColor: =RGBA(0, 121, 187, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(54, 176, 75, 1)
+        Height: =71
+        Icon: =Icon.NextArrow
+        OnSelect: =Navigate(PantallaUnidad3,ScreenTransition.Fade)
+        Width: =62
+        X: =495
+        Y: =792
+        ZIndex: =23
+
+    Imagelogo As image:
+        Height: =211
+        Image: ='WhatsApp_Image_2023-11-23_at_23.02.49-removebg-preview'
+        ImagePosition: =ImagePosition.Fill
+        Width: =311
+        X: =167
+        Y: =142
+        ZIndex: =28
+
+    LabelEvaluacion As label:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Dancing Script'
+        FontWeight: =FontWeight.Bold
+        Height: =53
+        Size: =27
+        Text: ="Evaluación de Refuerzo"
+        Width: =342
+        X: =54
+        Y: =951
+        ZIndex: =30
+
+    Buttonclicaqui As button:
+        BorderColor: |-
+            =ColorValue( "#fffaf0" )
+        BorderThickness: =10
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(0, 121, 187, 1)
+        Height: =63
+        OnSelect: =Navigate('Pantalla evaluacion refuerzo',ScreenTransition.Fade)
+        Size: =20
+        Text: ="Clic Aquí"
+        Width: =152
+        X: =443
+        Y: =946
+        ZIndex: =31
+

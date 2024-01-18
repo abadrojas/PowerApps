@@ -1,0 +1,31 @@
+"'Pantalla Multimedia' As screen":
+    BackgroundImage: ='fondo 2'
+    ImagePosition: =ImagePosition.Fill
+
+    Rectangle2_1 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        Fill: =RGBA(102, 182, 227, 1)
+        Height: =91
+        Width: =640
+        ZIndex: =1
+
+    Icon1_1 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =17
+        Y: =13
+        ZIndex: =2
+
+    Label1_1 As label:
+        Align: =Align.Center
+        Font: =Font.'Dancing Script'
+        Height: =64
+        Size: =60
+        Text: ="Multimedia"
+        Width: =560
+        X: =80
+        Y: =13
+        ZIndex: =3
+

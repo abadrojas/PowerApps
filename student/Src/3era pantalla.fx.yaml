@@ -1,0 +1,22 @@
+"'3era pantalla' As screen":
+
+    LabelAgg_1 As label:
+        Align: =Align.Center
+        Fill: =RGBA(102, 182, 227, 1)
+        Font: =Font.'Dancing Script'
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        PaddingLeft: =100
+        PaddingRight: =25
+        Size: =30
+        Text: ="Bienvenidos a Science World"
+        Width: =640
+        ZIndex: =1
+
+    Icon5 As icon.Home:
+        Icon: =Icon.Home
+        OnSelect: =Navigate(PantallaUnidades,ScreenTransition.Fade)
+        X: =31
+        Y: =24
+        ZIndex: =3
+

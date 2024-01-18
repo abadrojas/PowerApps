@@ -1,0 +1,33 @@
+"'Tema 1 Unidad 1' As screen":
+    BackgroundImage: =
+    Fill: =RGBA(255, 255, 255, 1)
+    ImagePosition: =ImagePosition.Fill
+
+    LabelAgg_6 As label:
+        Align: =Align.Center
+        Fill: =RGBA(102, 182, 227, 1)
+        Font: =Font.'Dancing Script'
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        PaddingLeft: =200
+        PaddingRight: =25
+        Size: =35
+        Text: |-
+            ="Tema 1: La Célula "
+        Width: =640
+        ZIndex: =1
+
+    Icon2_4 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =30
+        Y: =24
+        ZIndex: =2
+
+    Video3 As videoPlayback:
+        Height: =315
+        Width: =640
+        Y: =113
+        ZIndex: =3
+

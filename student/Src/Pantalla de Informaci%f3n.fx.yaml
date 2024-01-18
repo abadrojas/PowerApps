@@ -1,0 +1,31 @@
+"'Pantalla de Información' As screen":
+    BackgroundImage: ='fondo 2'
+    ImagePosition: =ImagePosition.Fill
+
+    Rectangle2_2 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        Fill: =RGBA(102, 182, 227, 1)
+        Height: =91
+        Width: =640
+        ZIndex: =1
+
+    Icon1_2 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =17
+        Y: =13
+        ZIndex: =2
+
+    Label1_2 As label:
+        Align: =Align.Center
+        Font: =Font.'Patrick Hand'
+        Height: =64
+        Size: =35
+        Text: ="INFORMACIÓN"
+        Width: =560
+        X: =58
+        Y: =13
+        ZIndex: =3
+

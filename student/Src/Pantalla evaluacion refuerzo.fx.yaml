@@ -1,0 +1,24 @@
+"'Pantalla evaluacion refuerzo' As screen":
+    BackgroundImage: ='fondo apps'
+    ImagePosition: =ImagePosition.Fill
+
+    LabelAgg_5 As label:
+        Align: =Align.Center
+        Fill: =RGBA(187, 221, 140, 1)
+        Font: =Font.'Dancing Script'
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        PaddingLeft: =100
+        PaddingRight: =25
+        Size: =40
+        Text: ="Evaluación de Refuerzo"
+        Width: =640
+        ZIndex: =1
+
+    Icon5_1 As icon.Home:
+        Icon: =Icon.Home
+        OnSelect: =Navigate(PantallaUnidades,ScreenTransition.Fade)
+        X: =31
+        Y: =24
+        ZIndex: =3
+

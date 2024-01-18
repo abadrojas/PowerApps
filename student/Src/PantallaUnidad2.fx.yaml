@@ -1,0 +1,217 @@
+PantallaUnidad2 As screen:
+    BackgroundImage: =sexual
+    ImagePosition: =ImagePosition.Fill
+
+    LabelAgg_3 As label:
+        Align: =Align.Center
+        Fill: =RGBA(203, 102, 102, 1)
+        Font: =Font.'Dancing Script'
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        PaddingLeft: =200
+        PaddingRight: =25
+        Size: =35
+        Text: ="Unidad 2                             La Reproducción"
+        Width: =640
+        ZIndex: =1
+
+    Icon2_2 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =40
+        Y: =24
+        ZIndex: =2
+
+    Rectangle5_8 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        DisabledFill: |
+            =Self.Fill
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =98
+        Width: =353
+        X: =49
+        Y: =997
+        ZIndex: =3
+
+    Video1_1 As videoPlayback:
+        Height: =363
+        Media: =SDM0CV0N66RN0JQT
+        OnStart: =true 
+        Width: =640
+        Y: =158
+        ZIndex: =4
+
+    Rectangle5_9 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        DisabledFill: |
+            =Self.Fill
+        Fill: =RGBA(220, 153, 153, 1)
+        Height: =69
+        Width: =586
+        X: =27
+        Y: =572
+        ZIndex: =5
+
+    LabelASR_5 As label:
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Great Vibes'
+        Height: =58
+        Size: =30
+        Text: |-
+            ="Tema 1: L a Reproducción"
+        Width: =476
+        X: =40
+        Y: =583
+        ZIndex: =6
+
+    IconUnidad1_7 As icon.NextArrow:
+        BorderColor: =RGBA(0, 121, 187, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(54, 176, 75, 1)
+        Height: =58
+        Icon: =Icon.NextArrow
+        OnSelect: =Navigate('Tema 1 Unidad 2',ScreenTransition.Fade)
+        Width: =50
+        X: =544
+        Y: =577
+        ZIndex: =7
+
+    Rectangle5_10 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        DisabledFill: |
+            =Self.Fill
+        Fill: =RGBA(220, 153, 153, 1)
+        Height: =63
+        Width: =586
+        X: =27
+        Y: =666
+        ZIndex: =8
+
+    LabelASR_6 As label:
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Great Vibes'
+        Height: =69
+        Size: =24
+        Text: |-
+            ="Tema 2: L a Reproducción Sexual y Asexual."
+        Width: =526
+        X: =40
+        Y: =666
+        ZIndex: =9
+
+    IconUnidad1_8 As icon.NextArrow:
+        BorderColor: =RGBA(0, 121, 187, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(54, 176, 75, 1)
+        Height: =58
+        Icon: =Icon.NextArrow
+        OnSelect: =Navigate('Tema 2 Unidad 2',ScreenTransition.Fade)
+        Width: =50
+        X: =544
+        Y: =671
+        ZIndex: =10
+
+    Rectangle5_11 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        DisabledFill: |
+            =Self.Fill
+        Fill: =RGBA(220, 153, 153, 1)
+        Height: =71
+        Width: =586
+        X: =27
+        Y: =880
+        ZIndex: =11
+
+    LabelASR_7 As label:
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Great Vibes'
+        Height: =58
+        Size: =30
+        Text: |-
+            ="Tema 4: El Embarazo y Gestación"
+        Width: =504
+        X: =40
+        Y: =886
+        ZIndex: =12
+
+    IconUnidad1_9 As icon.NextArrow:
+        BorderColor: =RGBA(0, 121, 187, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(54, 176, 75, 1)
+        Height: =58
+        Icon: =Icon.NextArrow
+        OnSelect: =Navigate('Tema 4 Unidad 2',ScreenTransition.Fade)
+        Width: =50
+        X: =544
+        Y: =886
+        ZIndex: =13
+
+    Rectangle5_12 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        DisabledFill: |
+            =Self.Fill
+        Fill: =RGBA(220, 153, 153, 1)
+        Height: =102
+        Width: =586
+        X: =27
+        Y: =751
+        ZIndex: =14
+
+    LabelASR_8 As label:
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Great Vibes'
+        Height: =90
+        Size: =28
+        Text: |-
+            ="Tema 3: Sistema Reproductor Masculino y Femenino"
+        Width: =504
+        X: =40
+        Y: =759
+        ZIndex: =15
+
+    IconUnidad1_10 As icon.NextArrow:
+        BorderColor: =RGBA(0, 121, 187, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(54, 176, 75, 1)
+        Height: =58
+        Icon: =Icon.NextArrow
+        OnSelect: =Navigate('Tema 3 Unidad 2',ScreenTransition.Fade)
+        Width: =50
+        X: =544
+        Y: =778
+        ZIndex: =16
+
+    LabelEvaluacion_2 As label:
+        Align: =Align.Center
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Dancing Script'
+        FontWeight: =FontWeight.Bold
+        Height: =98
+        Size: =27
+        Text: ="Evaluación Final de  la Unidad 2"
+        Width: =342
+        X: =49
+        Y: =997
+        ZIndex: =17
+
+    Buttonclicaqui_2 As button:
+        BorderColor: |-
+            =ColorValue( "#fffaf0" )
+        BorderThickness: =10
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(220, 153, 153, 1)
+        Height: =63
+        OnSelect: =Navigate('Pantalla evaluacion refuerzo',ScreenTransition.Fade)
+        Size: =20
+        Text: ="Clic Aquí"
+        Width: =152
+        X: =430
+        Y: =1014
+        ZIndex: =18
+
