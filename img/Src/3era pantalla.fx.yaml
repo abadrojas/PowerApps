@@ -22,6 +22,7 @@
 
     Button1 As button:
         Height: =70
+        OnSelect: =Navigate(PantallaMR,ScreenTransition.Fade)
         Size: =24
         Text: ="MR"
         Width: =280

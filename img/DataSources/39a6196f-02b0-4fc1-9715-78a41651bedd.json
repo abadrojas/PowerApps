@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "msdyn_aiodlabel",
+    "MaxGetRowsCount": 500,
     "Name": "39a6196f-02b0-4fc1-9715-78a41651bedd",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
