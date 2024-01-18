@@ -1,1 +1,24 @@
-{}
+{
+  "4c5704cd-da8c-46db-8903-afc9ceabdea5": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1670/1.0.1670.3526/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://ugye.sharepoint.com/sites/DemoScienceWorld": {
+        "dataSources": {
+          "Science World": {
+            "tableName": "1b22a368-d6a8-473c-a35b-4623723c80f4"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Science World"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4c5704cd-da8c-46db-8903-afc9ceabdea5"
+  }
+}
