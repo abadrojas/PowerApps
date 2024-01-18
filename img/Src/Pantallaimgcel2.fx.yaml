@@ -1,0 +1,35 @@
+Pantallaimgcel2 As screen:
+    BackgroundImage: =
+    Fill: =RGBA(255, 255, 255, 1)
+    ImagePosition: =ImagePosition.Fill
+
+    Icon2_16 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =30
+        Y: =24
+        ZIndex: =2
+
+    Label6_1 As label:
+        Align: =Align.Center
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =50
+        Text: ="Atrás"
+        Underline: =true
+        Width: =560
+        X: =80
+        Y: =24
+        ZIndex: =3
+
+    Image1_1 As image:
+        Height: =465
+        Image: ='imagen de celula vegetal'
+        ImagePosition: =ImagePosition.Fill
+        Width: =620
+        X: =8
+        Y: =368
+        ZIndex: =4
+

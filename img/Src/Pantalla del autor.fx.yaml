@@ -1,0 +1,162 @@
+"'Pantalla del autor' As screen":
+    BackgroundImage: ='fondo 2'
+    Fill: =RGBA(204, 231, 246, 1)
+    ImagePosition: =ImagePosition.Fill
+
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        Fill: =RGBA(102, 182, 227, 1)
+        Height: =91
+        Width: =640
+        ZIndex: =1
+
+    Icon1 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =17
+        Y: =13
+        ZIndex: =2
+
+    Label1 As label:
+        Align: =Align.Center
+        Font: =Font.'Patrick Hand'
+        Height: =64
+        Size: =35
+        Text: ="PERFIL DE AUTOR"
+        Width: =560
+        X: =58
+        Y: =13
+        ZIndex: =3
+
+    Icon2 As icon.Person:
+        Height: =77
+        Icon: =Icon.Person
+        Width: =68
+        X: =550
+        Y: =7
+        ZIndex: =4
+
+    Label7 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =25
+        Text: |-
+            ="AUTOR:"
+        Underline: =true
+        Width: =169
+        X: =49
+        Y: =529
+        ZIndex: =5
+
+    Label8 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =25
+        Text: ="Abad Rojas Fabrizio Javier"
+        Width: =510
+        X: =79
+        Y: =599
+        ZIndex: =6
+
+    Label7_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =25
+        Text: |-
+            ="CORREO:"
+        Underline: =true
+        Width: =232
+        X: =49
+        Y: =669
+        ZIndex: =7
+
+    Label8_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =25
+        Text: ="fabrizio.abadr@ug.edu.ec"
+        Width: =497
+        X: =94
+        Y: =739
+        ZIndex: =8
+
+    Label7_2 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =25
+        Text: |-
+            ="DIRECCIÓN:"
+        Underline: =true
+        Width: =257
+        X: =49
+        Y: =809
+        ZIndex: =9
+
+    Label8_2 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =25
+        Text: ="Pascuales Barrio 5 Esquinas"
+        Width: =497
+        X: =92
+        Y: =879
+        ZIndex: =10
+
+    Label7_3 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =25
+        Text: |-
+            ="CONTACTO:"
+        Underline: =true
+        Width: =257
+        X: =58
+        Y: =949
+        ZIndex: =11
+
+    Label8_3 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =25
+        Text: ="2984889 - 0985255748"
+        Width: =425
+        X: =121
+        Y: =1019
+        ZIndex: =12
+
+    Rectangle1 As rectangle:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderThickness: =5
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =383
+        Width: =312
+        X: =155
+        Y: =118
+        ZIndex: =13
+
+    Image3 As image:
+        Height: =369
+        Image: =FJ
+        Width: =467
+        X: =79
+        Y: =125
+        ZIndex: =14
+

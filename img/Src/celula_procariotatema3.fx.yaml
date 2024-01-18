@@ -1,0 +1,97 @@
+celula_procariotatema3 As screen:
+    BackgroundImage: =
+    Fill: =RGBA(0, 0, 0, 0)
+    ImagePosition: =ImagePosition.Fill
+
+    LabelAgg_17 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(26, 26, 26, 1)
+        BorderThickness: =5
+        Fill: =RGBA(204, 208, 225, 1)
+        Font: =Font.'Dancing Script'
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        PaddingLeft: =200
+        PaddingRight: =25
+        Size: =40
+        Text: ="Célula Procariota"
+        Width: =640
+        ZIndex: =1
+
+    Icon2_17 As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =40
+        Y: =24
+        ZIndex: =2
+
+    Rectangle3_17 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =1023
+        Width: =640
+        Y: =113
+        ZIndex: =3
+
+    Image5_12 As image:
+        Height: =301
+        Image: =tiposprocariotas
+        Width: =408
+        X: =210
+        Y: =834
+        ZIndex: =4
+
+    Label3_12 As label:
+        Align: =Align.Justify
+        Font: =Font.Georgia
+        Height: =237
+        Size: =20
+        Text: |-
+            ="La principal característica de las células procariotas es que no tienen una membrana que delimite al núcleo celular y, en cambio, presentan su material genético disperso en el citoplasma, apenas reunido en una zona llamada nucleoide.
+            
+            "
+        Width: =591
+        X: =27
+        Y: =128
+        ZIndex: =5
+
+    Label3_13 As label:
+        Align: =Align.Justify
+        Font: =Font.Georgia
+        Height: =517
+        LineHeight: =1.3
+        Size: =20
+        Text: |-
+            ="Las células procariotas pueden tener formas muy variadas y a menudo incluso una misma especie puede adoptar formas cambiantes, lo que se denomina pleomorfismo. Sin embargo, se pueden distinguir tres tipos principales de morfología:
+            *Coco. 
+            *Bacilo. 
+            *Espirilo.
+            *Espiroqueta.
+            *Vibriones."
+        Width: =581
+        X: =22
+        Y: =581
+        ZIndex: =6
+
+    Label4_3 As label:
+        Color: =RGBA(102, 182, 227, 1)
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =24
+        Text: ="Tipos de Células Procariotas"
+        Underline: =true
+        Width: =594
+        X: =40
+        Y: =581
+        ZIndex: =7
+
+    Image5_13 As image:
+        Height: =250
+        Image: =imgcelprocariota
+        Width: =533
+        X: =46
+        Y: =317
+        ZIndex: =8
+

@@ -1,0 +1,181 @@
+PantallaUnidad1 As screen:
+    BackgroundImage: ='fondo celula'
+    Fill: =RGBA(0, 0, 0, 1)
+    ImagePosition: =ImagePosition.Fill
+
+    LabelAgg_2 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        Fill: =RGBA(136, 160, 209, 1)
+        Font: =Font.'Dancing Script'
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        PaddingLeft: =200
+        PaddingRight: =25
+        Size: =35
+        Text: ="Unidad 1;                    Los Seres Vivos"
+        Width: =640
+        ZIndex: =2
+
+    Icon2_1 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =40
+        Y: =24
+        ZIndex: =3
+
+    Video1 As videoPlayback:
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =393
+        Media: =SDM0CV0N66RN0JQT
+        OnStart: =true 
+        Width: =640
+        Y: =136
+        ZIndex: =4
+
+    Rectangle5_3 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        DisabledFill: |
+            =Self.Fill
+        Fill: =RGBA(153, 207, 236, 1)
+        Height: =75
+        Width: =587
+        X: =26
+        Y: =587
+        ZIndex: =5
+
+    LabelASR_1 As label:
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Great Vibes'
+        Height: =63
+        Size: =30
+        Text: |-
+            ="Tema 1: L a Célula"
+        Width: =476
+        X: =39
+        Y: =598
+        ZIndex: =6
+
+    IconUnidad1_3 As icon.NextArrow:
+        BorderColor: =RGBA(0, 121, 187, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(54, 176, 75, 1)
+        Height: =63
+        Icon: =Icon.NextArrow
+        OnSelect: =Navigate('Tema 1 Unidad 1',ScreenTransition.Fade)
+        Width: =50
+        X: =543
+        Y: =592
+        ZIndex: =7
+
+    Rectangle5_4 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        DisabledFill: |
+            =Self.Fill
+        Fill: =RGBA(153, 207, 236, 1)
+        Height: =69
+        Width: =587
+        X: =26
+        Y: =695
+        ZIndex: =8
+
+    LabelASR_2 As label:
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Great Vibes'
+        Height: =75
+        Size: =26
+        Text: |-
+            ="Tema 2: L a Célula Animal  y Vegetal"
+        Width: =526
+        X: =39
+        Y: =695
+        ZIndex: =9
+
+    IconUnidad1_4 As icon.NextArrow:
+        BorderColor: =RGBA(0, 121, 187, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(54, 176, 75, 1)
+        Height: =63
+        Icon: =Icon.NextArrow
+        OnSelect: =Navigate('Tema 2 Unidad 1',ScreenTransition.Fade)
+        Width: =50
+        X: =543
+        Y: =700
+        ZIndex: =10
+
+    Rectangle5_6 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        DisabledFill: |
+            =Self.Fill
+        Fill: =RGBA(153, 207, 236, 1)
+        Height: =83
+        Width: =587
+        X: =26
+        Y: =908
+        ZIndex: =11
+
+    LabelASR_4 As label:
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Great Vibes'
+        Height: =67
+        Size: =30
+        Text: |-
+            ="Tema 4: L a Reproducción Celular"
+        Width: =504
+        X: =39
+        Y: =921
+        ZIndex: =12
+
+    IconUnidad1_6 As icon.NextArrow:
+        BorderColor: =RGBA(0, 121, 187, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(54, 176, 75, 1)
+        Height: =67
+        Icon: =Icon.NextArrow
+        OnSelect: =Navigate('Tema 4 Unidad 1',ScreenTransition.Fade)
+        Width: =50
+        X: =543
+        Y: =914
+        ZIndex: =13
+
+    Rectangle5_5 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        DisabledFill: |
+            =Self.Fill
+        Fill: =RGBA(153, 207, 236, 1)
+        Height: =84
+        Width: =587
+        X: =26
+        Y: =795
+        ZIndex: =14
+
+    LabelASR_3 As label:
+        DisplayMode: =DisplayMode.View
+        Font: =Font.'Great Vibes'
+        Height: =74
+        Size: =25
+        Text: |-
+            ="Tema 3: L a Célula Eucariota y Procariota"
+        Width: =526
+        X: =39
+        Y: =804
+        ZIndex: =15
+
+    IconUnidad1_5 As icon.NextArrow:
+        BorderColor: =RGBA(0, 121, 187, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(54, 176, 75, 1)
+        Height: =63
+        Icon: =Icon.NextArrow
+        OnSelect: =Navigate('Tema 3 Unidad 1',ScreenTransition.Fade)
+        Width: =50
+        X: =543
+        Y: =804
+        ZIndex: =16
+

@@ -1,0 +1,92 @@
+"'Tema 1 Unidad 1' As screen":
+    BackgroundImage: =
+    Fill: =RGBA(255, 255, 255, 1)
+    ImagePosition: =ImagePosition.Fill
+
+    LabelAgg_6 As label:
+        Align: =Align.Center
+        Fill: =RGBA(102, 182, 227, 1)
+        Font: =Font.'Dancing Script'
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        PaddingLeft: =200
+        PaddingRight: =25
+        Size: =35
+        Text: |-
+            ="Tema 1: La Célula "
+        Width: =640
+        ZIndex: =1
+
+    Icon2_4 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =30
+        Y: =24
+        ZIndex: =2
+
+    Video3 As videoPlayback:
+        Height: =315
+        Media: ='VIDEO DE CELULA'
+        Width: =640
+        Y: =113
+        ZIndex: =3
+
+    Rectangle3_12 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =579
+        Width: =569
+        X: =30
+        Y: =522
+        ZIndex: =4
+
+    Rectangle3_13 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =5
+        Fill: =RGBA(153, 207, 236, 1)
+        Height: =109
+        Width: =569
+        X: =30
+        Y: =448
+        ZIndex: =5
+
+    Label2_12 As label:
+        Align: =Align.Center
+        Font: =Font.'Patrick Hand'
+        Height: =93
+        Size: =27
+        Text: ="CONCEPTO"
+        Width: =491
+        X: =50
+        Y: =448
+        ZIndex: =6
+
+    Image5_14 As image:
+        Height: =241
+        Image: =vegetal
+        Width: =243
+        X: =323
+        Y: =875
+        ZIndex: =7
+
+    Label3_14 As label:
+        Align: =Align.Justify
+        Font: =Font.Georgia
+        Height: =312
+        Size: =25
+        Text: ="Es la unidad más pequeña que puede vivir por sí sola. Forma todos los organismos vivos y los tejidos del cuerpo. Las tres partes principales de la célula son la membrana celular, el núcleo y el citoplasma. "
+        Width: =538
+        X: =45
+        Y: =577
+        ZIndex: =8
+
+    Image5_15 As image:
+        Height: =212
+        Image: =canimal
+        Width: =212
+        X: =111
+        Y: =875
+        ZIndex: =9
+

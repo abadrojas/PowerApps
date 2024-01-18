@@ -1,0 +1,233 @@
+"'Pantalla evaluacion final' As screen":
+    BackgroundImage: ='fondo apps'
+    ImagePosition: =ImagePosition.Fill
+
+    LabelAgg_14 As label:
+        Align: =Align.Center
+        Fill: =RGBA(153, 207, 236, 1)
+        Font: =Font.'Dancing Script'
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        PaddingLeft: =100
+        PaddingRight: =25
+        Size: =40
+        Text: ="Evaluación Final"
+        Width: =640
+        ZIndex: =1
+
+    Icon2_12 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =62
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =30
+        Y: =25
+        ZIndex: =2
+
+    tipo_celula As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =7
+
+        Rectangle8 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =3
+            Fill: =RGBA(204, 231, 246, 1)
+            Height: =84
+            Width: =274
+            X: =22
+            Y: =184
+            ZIndex: =3
+
+        Label5 As label:
+            Align: =Align.Center
+            Font: =Font.Georgia
+            Height: =68
+            Size: =15
+            Text: ="1.¿Cuántos tipos de células se mencionaron en esta unidad?"
+            Width: =256
+            X: =31
+            Y: =192
+            ZIndex: =4
+
+        Rectangle8_1 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =3
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =214
+            Width: =274
+            X: =22
+            Y: =268
+            ZIndex: =5
+
+        Radio1 As radio:
+            Default: =""
+            Font: =Font.Georgia
+            Height: =192
+            Items: =["2","3","4","1"]
+            RadioSize: =40
+            Reset: =true
+            Size: =21
+            Width: =267
+            X: =29
+            Y: =290
+            ZIndex: =6
+
+    tipo_repro As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =11
+
+        Rectangle8_2 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =3
+            Fill: =RGBA(204, 231, 246, 1)
+            Height: =84
+            Width: =274
+            X: =333
+            Y: =184
+            ZIndex: =7
+
+        Label5_1 As label:
+            Align: =Align.Center
+            Font: =Font.Georgia
+            Height: =68
+            Size: =15
+            Text: ="2.¿Cuáles son los elementos que conforman la reproducción celular?"
+            Width: =256
+            X: =342
+            Y: =192
+            ZIndex: =8
+
+        Rectangle8_3 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =3
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =214
+            Width: =274
+            X: =333
+            Y: =268
+            ZIndex: =9
+
+        Radio1_1 As radio:
+            Default: =""
+            Font: =Font.Georgia
+            Height: =192
+            Items: =["Animal y Vegetal","Meiosis y Animal","Vegetal y Mitosis","Mitosis y Meiosis"]
+            RadioSize: =40
+            Reset: |
+                =true
+            Size: =15
+            Width: =267
+            X: =340
+            Y: =290
+            ZIndex: =10
+
+    tipo_parte As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =15
+
+        Rectangle8_4 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =3
+            Fill: =RGBA(204, 231, 246, 1)
+            Height: =84
+            Width: =274
+            X: =22
+            Y: =532
+            ZIndex: =11
+
+        Label5_2 As label:
+            Align: =Align.Center
+            Font: =Font.Georgia
+            Height: =68
+            Size: =12
+            Text: ="3. .¿Cuáles son los elementos en comun entre las partes de la celula animal y vegetal?"
+            Width: =256
+            X: =31
+            Y: =540
+            ZIndex: =12
+
+        Rectangle8_5 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =3
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =214
+            Width: =274
+            X: =22
+            Y: =616
+            ZIndex: =13
+
+        Radio1_2 As radio:
+            Default: =""
+            Font: =Font.Georgia
+            Height: =192
+            Items: =["Nícleo y Cloroplasto","Aparato de Golgi y Núcleo","Vacuola y Centrosoma ","Cloroplasto y Centrosoma"]
+            RadioSize: =40
+            Reset: |
+                =true
+            Size: =12
+            Width: =267
+            X: =29
+            Y: =638
+            ZIndex: =14
+
+    tipo_celviv As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =19
+
+        Rectangle8_6 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =3
+            Fill: =RGBA(204, 231, 246, 1)
+            Height: =84
+            Width: =274
+            X: =333
+            Y: =532
+            ZIndex: =15
+
+        Label5_3 As label:
+            Align: =Align.Center
+            Font: =Font.Georgia
+            Height: =68
+            Size: =15
+            Text: ="4.¿Cuáles son las células de los seres vivos?"
+            Width: =256
+            X: =342
+            Y: =540
+            ZIndex: =16
+
+        Rectangle8_7 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =3
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =214
+            Width: =274
+            X: =333
+            Y: =616
+            ZIndex: =17
+
+        Radio1_3 As radio:
+            Default: =""
+            Font: =Font.Georgia
+            Height: =192
+            Items: =["Mitosis y Meiosis","Animal y Vegetal","Meiosis y Animal","Mitosis y Vegetal"]
+            RadioSize: =40
+            Reset: |
+                =true
+            Size: =15
+            Width: =267
+            X: =340
+            Y: =638
+            ZIndex: =18
+

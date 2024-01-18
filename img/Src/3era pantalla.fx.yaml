@@ -1,0 +1,49 @@
+"'3era pantalla' As screen":
+
+    LabelAgg_1 As label:
+        Align: =Align.Center
+        Fill: =RGBA(102, 182, 227, 1)
+        Font: =Font.'Dancing Script'
+        FontWeight: =FontWeight.Bold
+        Height: =113
+        PaddingLeft: =100
+        PaddingRight: =25
+        Size: =30
+        Text: ="Bienvenidos a Science World"
+        Width: =640
+        ZIndex: =1
+
+    Icon5 As icon.Home:
+        Icon: =Icon.Home
+        OnSelect: =Navigate(PantallaUnidades,ScreenTransition.Fade)
+        X: =31
+        Y: =24
+        ZIndex: =3
+
+    Button1 As button:
+        Height: =70
+        Size: =24
+        Text: ="MR"
+        Width: =280
+        X: =200
+        Y: =230
+        ZIndex: =4
+
+    Button2 As button:
+        Height: =70
+        Size: =24
+        Text: ="VOLUMENES"
+        Width: =280
+        X: =200
+        Y: =410
+        ZIndex: =5
+
+    Button3 As button:
+        Height: =70
+        Size: =24
+        Text: ="MEDIDAS"
+        Width: =280
+        X: =200
+        Y: =577
+        ZIndex: =6
+
