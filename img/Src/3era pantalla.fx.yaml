@@ -30,21 +30,3 @@
         Y: =230
         ZIndex: =4
 
-    Button2 As button:
-        Height: =70
-        Size: =24
-        Text: ="VOLUMENES"
-        Width: =280
-        X: =200
-        Y: =410
-        ZIndex: =5
-
-    Button3 As button:
-        Height: =70
-        Size: =24
-        Text: ="MEDIDAS"
-        Width: =280
-        X: =200
-        Y: =577
-        ZIndex: =6
-

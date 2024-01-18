@@ -11,7 +11,7 @@
         Text: ="MR"
         Width: =Parent.Width - Self.X - IconSortUpDown1.Width - IconNewItem1.Width - IconRefresh1.Width
         Wrap: =false
-        X: =20
+        X: =108
         ZIndex: =2
 
     IconRefresh1 As icon.Reload:
@@ -184,4 +184,12 @@
             X: =470
             Y: =38
             ZIndex: =7
+
+    Icon1_2 As icon.BackArrow:
+        Color: =RGBA(0, 0, 0, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Back()
+        X: =17
+        Y: =13
+        ZIndex: =10
 
