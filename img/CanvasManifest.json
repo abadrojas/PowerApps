@@ -114,13 +114,13 @@
     "Id": "b0cf4e47-e061-4bc0-a2b5-1cbab89f3a28",
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
-    "Name": "App1701",
+    "Name": "App18",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "App17",
+    "AppName": "App18",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
