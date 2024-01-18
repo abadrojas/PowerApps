@@ -114,13 +114,13 @@
     "Id": "323d4422-726e-4e99-824b-3cf839810b7f",
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
-    "Name": "App18enero",
+    "Name": "appprototipo",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "App18enero",
+    "AppName": "appprototipo",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
